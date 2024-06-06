@@ -11,8 +11,9 @@ export const IndexPage: Component = () => {
   return (
     <Page>
       <p class="index-page__p">
-        This page is a home page in this boilerplate. You can use the links below to visit other
-        pages with their own functionality.
+        Time
+        Is
+        Money
       </p>
       <ul class="index-page__links">
         <For each={routes}>
