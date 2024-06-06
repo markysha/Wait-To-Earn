@@ -1,4 +1,6 @@
 .index-page__p {
+  width: 100%;
+  box-sizing: border-box;
   font-family: "Sixtyfour", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
