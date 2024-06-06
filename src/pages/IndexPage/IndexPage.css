@@ -1,3 +1,13 @@
+.index-page__p {
+  font-family: "Sixtyfour", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "BLED" 0,
+    "SCAN" 0;
+}
+
 .index-page__links {
   list-style: none;
   padding-left: 0;
@@ -9,7 +19,7 @@
   gap: 5px;
 }
 
-.index-page__link-item + .index-page__link-item {
+.index-page__link-item+.index-page__link-item {
   margin-top: 10px;
 }
 
