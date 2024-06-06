@@ -1,4 +1,4 @@
-import type { Component, JSX, ParentProps } from 'solid-js';
+import { Show, type Component, type JSX, type ParentProps } from 'solid-js';
 
 import './Page.css';
 
@@ -10,7 +10,9 @@ export interface PageProps extends ParentProps {
 export const Page: Component<PageProps> = (props) => {
   return (
     <div class="page">
-      props.title ? <h1>{props.title}</h1>
+      <Show when={!!props.title}>
+        <h1>{props.title}</h1>
+      </Show>
       {props.disclaimer && <div class="page__disclaimer">{props.disclaimer}</div>}
       {props.children}
     </div>
