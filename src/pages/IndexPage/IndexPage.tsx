@@ -11,9 +11,9 @@ export const IndexPage: Component = () => {
   return (
     <Page>
       <p class="index-page__p">
-        Time
-        Is
-        Money
+        Time <br />
+        Is <br />
+        Money <br />
       </p>
       <ul class="index-page__links">
         <For each={routes}>
