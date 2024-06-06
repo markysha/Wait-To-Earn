@@ -6,7 +6,7 @@ import solidPlugin from 'vite-plugin-solid';
 import tsconfigPaths from 'vite-tsconfig-paths';
 
 export default defineConfig({
-  base: '/solidjs-template/',
+  base: '/wait-to-earn/',
   plugins: [
     /*
     Uncomment the following line to enable solid-devtools.
