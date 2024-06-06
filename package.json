@@ -4,7 +4,7 @@
   "version": "0.0.2",
   "type": "module",
   "main": "index.js",
-  "homepage": "https://markysha.github.com/wait-to-earn",
+  "homepage": "https://markysha.github.io/wait-to-earn",
   "scripts": {
     "deploy": "gh-pages -d dist",
     "dev": "vite",
